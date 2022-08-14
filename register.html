@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@0;1&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <div class="center">
+        <div class="form-center">
+            <div class="header">
+                     <a href="index.html" class="home button"><i class="fa fa-home"></i>Home</a>
+                    <button class="reg button">Register</button>
+            </div>
+            <form action="submit" class="form">
+                <input type="text" class="first element" placeholder="first name" required>
+                <input type="text" class="last element" placeholder="last name" required>
+                <span>
+                    <label for="gender">Gender</label>
+                    <select class="gender element"  required>
+                        <option value="male">Male</option>
+                        <option value="felamle">Female</option>
+                        <option value="none">Non Binary</option>
+                    </select>
+                </span>
+                <input type="tel" class="phone element" placeholder="phone number" required>
+                <input type="text" class="cou element" placeholder="Country" required>
+                <input type="text" class="state element" placeholder="State" required>
+                <input type="text" class="user element" placeholder="Username" required>
+                <input type="password" class="pass element" placeholder="Password" required>
+                <input type="password" class="confirm element" placeholder="confirm password" required>
+                <button class="submit">Register</button>
+            </form>
+        </div>
+    </div>
+  <script src = "register.js"></script>
+</body>
+</html>

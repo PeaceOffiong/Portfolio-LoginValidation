@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+  font-family: "Playfair Display", sans-serif;
+}
+.center{
+    height: 100vh;
+    width: 100%;
+  background-color: rgb(215, 236, 236);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center .form-center{
+    background-color: white;
+    height: auto;
+    width: 400px;
+    border-radius: 15px;
+    margin: 25px;
+    box-shadow: 0px 10px -14px 14px #FFF;
+}
+
+.center .form-center .header{
+    width: 220px;
+    box-shadow: 0 0 20px 9px #dfa375;
+    margin:25px auto;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    display: flex;
+    background: transparent;
+    text-align: center;
+}
+
+.center .form-center .header .reg.button{
+    padding: 10px 30px;
+    background: transparent;
+    letter-spacing: 0.5px;
+    color: #c58e7f;
+    border:none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.center .form-center .header .home.button{
+    background-color: #dfa375;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 25px;
+    border:none;
+    cursor: pointer;
+    display: flex;
+}
+
+.center .form-center .header .home.button i{
+    margin-right: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.form .element{
+    padding: 8px 5px;
+    margin: 5px 25px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #dfa375;
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.form .element:focus{
+    color: #dfa375;
+    outline: none;
+}
+ 
+label{
+    margin: 30px;
+    color: grey;
+    font-size: 17px;
+ }
+
+option{
+    text-transform: capitalize;
+}
+
+.submit{
+    height: 45px;
+    width: 120px;
+    align-self: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+    background-color: #dfa375;
+    border: none;
+    border-radius: 35px;
+    color:white;
+    font-size: 16px;
+    margin-top: 15px;
+    transform: scale(0.98);
+ }
+
+.submit:active{
+    transform: scale(0.98);
+}
+
+ button:hover{
+    background: white;
+    color: #c58e7f;
+    border: 3px solid #dfa375;
+ }
+
+ input:focus{
+     outline: none;
+ }
+
+select:focus{
+     outline: none;
+ }
+
+.responds{
+    color: red;
+    transition: 0.3s ease-in;
+    margin: 0 25px ;
+    text-transform: capitalize;
+}
+
+.responds2{
+    color:red;
+    transition: 0.3s ease-in;
+    margin: 0 25px;
+    text-transform: capitalize;
+}
+
+.correct{
+    color:green;
+}
